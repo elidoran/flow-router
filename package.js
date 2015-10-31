@@ -60,7 +60,7 @@ function configure(api) {
   api.use('ddp');
   api.use('ejson');
   api.use('meteorhacks:fast-render@2.10.0', ['client', 'server']);
-  api.use('cosmos:browserify@0.5.0', 'client');
+  api.use('cosmos:browserify@0.8.3', 'client');
   api.use('meteorhacks:picker@1.0.3', 'server');
   api.use('meteorhacks:inject-data@1.3.0');
 
